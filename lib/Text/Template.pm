@@ -506,7 +506,7 @@ __END__
  # Pass many variables explicitly
  $hash = { recipient => 'Abed-Nego',
            friends => [ 'me', 'you' ],
-           enemies => { loathsome => 'Bill Gates',
+           enemies => { loathsome => 'Ajit Pai',
                         fearsome => 'Larry Ellison' },
          };
  $text = $template->fill_in(HASH => $hash, ...);
